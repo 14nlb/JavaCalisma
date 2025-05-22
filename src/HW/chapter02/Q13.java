@@ -9,7 +9,6 @@ public class Q13 {
         System.out.println("Enter the monthly saving amount: ");
         double amount = scanner.nextDouble();
 
-
         double month1 = amount * (1 + 0.00417);
         double month2 = (amount + month1) * (1 + 0.00417);
         double month3 = (amount + month2) * (1 + 0.00417);
@@ -18,9 +17,5 @@ public class Q13 {
         double month6 = (amount + month5) * (1 + 0.00417);
 
         System.out.println("After the sixth month, the account value is $" + month6);
-
-
-
-
     }
 }

@@ -12,10 +12,6 @@ public class Q10 {
          System.out.println("Enter the final temperature: ");
          double finaltemp = scanner.nextDouble();
 
-         /*double kg = scanner.nextDouble();
-          double inittemp = scanner.nextDouble();
-          double finaltemp = scanner.nextDouble(); */
-
          double Q = kg * (finaltemp - inittemp) * 4184;
 
          System.out.println("The energy needed is " + Q);

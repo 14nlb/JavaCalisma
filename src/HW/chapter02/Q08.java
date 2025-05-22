@@ -15,7 +15,6 @@ public class Q08 {
         long totalHours = totalMinutes / 60;
         long currentHours = (totalHours + offset) % 24;
 
-
         System.out.println("The current time is " + currentHours + ":" + currentMinutes + ":" + currentSecond);
 
     }

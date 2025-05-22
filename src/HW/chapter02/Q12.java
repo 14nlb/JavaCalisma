@@ -12,7 +12,5 @@ public class Q12 {
 
         double length = Math.pow(speed, 2) / (2 * accel);
         System.out.println("The minimum runway length for this airplane is " + length);
-
     }
-
 }
