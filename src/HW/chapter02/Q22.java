@@ -10,12 +10,12 @@ public class Q22 {
                 "For example, the input 1156 represents 11 dollars and 56 cents: ");
         int number = scanner.nextInt();
 
-        int lastdigit = number % 10;
+        int lastDigit = number % 10;
         number = number / 10;
 
-        int seclastdigit = number % 10;
+        int secondLastDigit = number % 10;
         number = number / 10;
 
-        System.out.println("The value in dollars is: $" + number + "." + seclastdigit + lastdigit);
+        System.out.println("The value in dollars is: $" + number + "." + secondLastDigit + lastDigit);
     }
 }

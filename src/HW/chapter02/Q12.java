@@ -8,9 +8,10 @@ public class Q12 {
 
         System.out.println("Enter speed and acceleration: ");
         double speed = scanner.nextDouble();
-        double accel = scanner.nextDouble();
+        double acceleration = scanner.nextDouble();
 
-        double length = Math.pow(speed, 2) / (2 * accel);
+        double length = Math.pow(speed, 2) / (2 * acceleration);
+
         System.out.println("The minimum runway length for this airplane is " + length);
     }
 }

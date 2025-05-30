@@ -10,9 +10,9 @@ public class Q14 {
         double kg = scanner.nextDouble() *  0.45359237;
 
         System.out.println("Enter height in inches: ");
-        double cm = scanner.nextDouble() * 0.0254;
+        double meters = scanner.nextDouble() * 0.0254;
 
-        double BMI = kg / Math.pow(cm, 2);
+        double BMI = kg / Math.pow(meters, 2);
 
         System.out.println("BMI is " + BMI);
 

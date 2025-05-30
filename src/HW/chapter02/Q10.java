@@ -8,11 +8,11 @@ public class Q10 {
          System.out.println("Enter the amount of water in kilograms: ");
          double kg = scanner.nextDouble();
          System.out.println("Enter the initial temperature: ");
-         double inittemp = scanner.nextDouble();
+         double initTemp = scanner.nextDouble();
          System.out.println("Enter the final temperature: ");
-         double finaltemp = scanner.nextDouble();
+         double finalTemp = scanner.nextDouble();
 
-         double Q = kg * (finaltemp - inittemp) * 4184;
+         double Q = kg * (finalTemp - initTemp) * 4184;
 
          System.out.println("The energy needed is " + Q);
 
